@@ -1,17 +1,31 @@
 {
-  "configVersion": "2.0.0",
+  "configVersion": "1.0.0",
   "lastUpdated": "2025-01-30",
 
   "developer": {
-    "name": "開発者名",
-    "description": "アプリの説明やメッセージをここに記載",
+    "profile": {
+      "name": "A-00",
+      "title": "個人開発者",
+      "description": "配信支援ツールを開発しています"
+    },
+    "message": "LogAnkerSystemをご利用いただきありがとうございます。\nご要望・不具合報告はお気軽にどうぞ。",
     "links": [
       {
-        "label": "開発者プロフィール",
-        "url": "https://example.com/profile"
+        "icon": "🏪",
+        "label": "BOOTH",
+        "description": "作品の販売ページ",
+        "url": "https://a-00.booth.pm/"
       },
       {
-        "label": "サポート・お問い合わせ",
+        "icon": "🐦",
+        "label": "X (Twitter)",
+        "description": "開発情報・お知らせ",
+        "url": "https://twitter.com/your_account"
+      },
+      {
+        "icon": "💬",
+        "label": "サポート",
+        "description": "お問い合わせ・不具合報告",
         "url": "https://example.com/support"
       }
     ]
@@ -21,11 +35,28 @@
     "enabled": true,
     "title": "Premium版のご案内",
     "message": "全機能が解放されます",
-    "upgradeUrl": "https://example.com/premium",
+    "upgradeUrl": "https://a-00.booth.pm/items/7792479",
     "features": [
-      "無制限のプロジェクト作成",
-      "高度なエクスポート機能",
-      "優先サポート"
+      {
+        "icon": "🚫",
+        "title": "BAN機能（完全開放）",
+        "items": ["ユーザーBAN 無制限", "コメントBAN 無制限"]
+      },
+      {
+        "icon": "🔍",
+        "title": "高度なフィルタリング",
+        "items": ["日付範囲フィルター", "URL別フィルター", "チャンネルポイントの個別管理"]
+      },
+      {
+        "icon": "💾",
+        "title": "設定保存機能",
+        "items": ["フィルター設定の保存/読込", "BAN設定の保存/読込"]
+      },
+      {
+        "icon": "🎁",
+        "title": "その他の特典",
+        "items": ["買い切りなので追加料金不要", "広告バナーなし", "今後のアップデートを無償提供予定"]
+      }
     ]
   },
 
