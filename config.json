@@ -30,27 +30,27 @@
         },
         {
             "icon:" "🦋",
-            "label:" "bluesky",
+            "label": "bluesky",
             "description": "同上",
             "url:" "https://bsky.app/profile/a-00.bsky.social"
         },
         {
             "icon:" "📺",
-            "label:" "YouTube",
+            "label": "YouTube",
             "description": "主にゲーム、たまにツール開発などしてます",
             "url:" "https://youtube.com/channel/UCYDSE-5L3i52SyJgG9L3q1w?si=ZXV4mo7-c3AXDUyM"
         },
         {
             "icon:" "📺",
-            "label:" "Twitch",
+            "label": "Twitch",
             "description": "Youtubeと同時配信してます",
-            "url:" "https://www.twitch.tv/a_00__"
+            "url": "https://www.twitch.tv/a_00__"
         },
         {
-            "icon:" "📺",
-            "label:" "ニコニコ",
+            "icon": "📺",
+            "label": "ニコニコ",
             "description": "同上",
-            "url:" "https://www.nicovideo.jp/user/125979540"
+            "url": "https://www.nicovideo.jp/user/125979540"
         }
     ],
   },
