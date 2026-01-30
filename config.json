@@ -1,5 +1,5 @@
 {
-  "configVersion": "2.0.3",
+  "configVersion": "2.0.4",
   "lastUpdated": "2025-01-30",
 
   "developer": {
@@ -9,52 +9,52 @@
       "description": "色んな事をしているおじさんです。"
     },
     "message": "🎉 ログ安価システムをご利用いただきありがとうございます 🎉 \n \n ■本プラグインについて \n 開発者が趣味で開発した安価機能とハードなコメントログ管理機能が実装されています。 \n 他の配信者の皆様にも安価に触れていただきたく、頒布・販売することにしました。 \n \n ■もしプラグインが役に立ちましたら \n ぜひ各種SNSでのフォローや支援をお願いします。 \n 　※1 配信で使用される際にご連絡いただければ観に行かせていただけるかもしれません。 \n 　※2 配信内や概要欄等で宣伝していただけるととてもありがたいです！",
-    
-  "links": [
-      {
-          "icon": "🐫",
-          "label": "BOOTH",
-          "url": "https://a-00.booth.pm/",
-          "description": "開発したものを公開する場所"
-      },
-      {
-          "icon": "💰",
-          "label": "pixivFANBOX",
-          "url": "https://a-00.fanbox.cc/",
-          "description": "ご支援（寄付）いただける方はこちら　※月額制なのでご注意ください。"
-      },
-      {
-          "icon": "🐦",
-          "label": "Twitter (X)",
-          "url": "https://x.com/_a_00__",
-          "description": "主に開発者の近況や雑学を発信しています"
-      },
-      {
-          "icon:" "🦋",
-          "label:" "bluesky",
-          "url:" "https://bsky.app/profile/a-00.bsky.social",
-          "description": "同上"
-      },
-      {
-          "icon:" "📺",
-          "label:" "YouTube",
-          "url:" "https://youtube.com/channel/UCYDSE-5L3i52SyJgG9L3q1w?si=ZXV4mo7-c3AXDUyM",
-          "description": "主にゲーム、たまにツール開発などしてます"
-      },
-      {
-          "icon:" "📺",
-          "label:" "Twitch",
-          "url:" "https://www.twitch.tv/a_00__",
-          "description": "Youtubeと同時配信してます"
-      },
-      {
-          "icon:" "📺",
-          "label:" "ニコニコ",
-          "url:" "https://www.nicovideo.jp/user/125979540",
-          "description": "同上"
-      }
-  ],
-
+    "links": [
+        {
+            "icon": "🐫",
+            "label": "BOOTH",
+            "description": "開発したものを公開する場所",
+            "url": "https://a-00.booth.pm/"
+        },
+        {
+            "icon": "💰",
+            "label": "pixivFANBOX",
+            "description": "ご支援（寄付）いただける方はこちら　※月額制なのでご注意ください。",
+            "url": "https://a-00.fanbox.cc/"
+        },
+        {
+            "icon": "🐦",
+            "label": "Twitter (X)",
+            "description": "主に開発者の近況や雑学を発信しています",
+            "url": "https://x.com/_a_00__"
+        },
+        {
+            "icon:" "🦋",
+            "label:" "bluesky",
+            "description": "同上",
+            "url:" "https://bsky.app/profile/a-00.bsky.social"
+        },
+        {
+            "icon:" "📺",
+            "label:" "YouTube",
+            "description": "主にゲーム、たまにツール開発などしてます",
+            "url:" "https://youtube.com/channel/UCYDSE-5L3i52SyJgG9L3q1w?si=ZXV4mo7-c3AXDUyM"
+        },
+        {
+            "icon:" "📺",
+            "label:" "Twitch",
+            "description": "Youtubeと同時配信してます",
+            "url:" "https://www.twitch.tv/a_00__"
+        },
+        {
+            "icon:" "📺",
+            "label:" "ニコニコ",
+            "description": "同上",
+            "url:" "https://www.nicovideo.jp/user/125979540"
+        }
+    ],
+  },
+  
   "premium": {
     "enabled": true,
     "title": "Premium版のご案内",
