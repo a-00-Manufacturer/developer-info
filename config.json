@@ -1,0 +1,41 @@
+{
+  "configVersion": "2.0.0",
+  "lastUpdated": "2025-01-30",
+
+  "developer": {
+    "name": "開発者名",
+    "description": "アプリの説明やメッセージをここに記載",
+    "links": [
+      {
+        "label": "開発者プロフィール",
+        "url": "https://example.com/profile"
+      },
+      {
+        "label": "サポート・お問い合わせ",
+        "url": "https://example.com/support"
+      }
+    ]
+  },
+
+  "premium": {
+    "enabled": true,
+    "title": "Premium版のご案内",
+    "message": "全機能が解放されます",
+    "upgradeUrl": "https://example.com/premium",
+    "features": [
+      "無制限のプロジェクト作成",
+      "高度なエクスポート機能",
+      "優先サポート"
+    ]
+  },
+
+  "releaseNotification": {
+    "id": "initial-setup-2025-01-30",
+    "enabled": false,
+    "type": "update",
+    "title": "お知らせタイトル",
+    "message": "お知らせ内容をここに記載",
+    "linkText": "詳細を見る",
+    "linkUrl": ""
+  }
+}
