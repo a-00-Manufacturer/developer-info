@@ -110,6 +110,11 @@
             "content": "次回アップデートでは新しいフィルター機能を追加予定です。"
         },
         {
+            "type": "alert",
+            "heading": "警告",
+            "content": "めっちゃ危ない"
+        },
+        {
             "type": "default",
             "heading": "なんでもない",
             "content": "そんな日もあるさ。"
