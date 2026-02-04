@@ -110,10 +110,10 @@
             "content": "次回アップデートでは新しいフィルター機能を追加予定です。"
         },
         {
-            "type": "",
+            "type": "default",
             "heading": "なんでもない",
             "content": "そんな日もあるさ。"
-        }
+        },
     ],
     "linkText": "詳細を見る",
     "linkUrl": "https://example.com/changelog"
