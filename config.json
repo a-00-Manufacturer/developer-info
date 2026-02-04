@@ -91,19 +91,29 @@
     "/type/": "update / newProduct / important から選択することでUI色などを調整",
     "type": "update",
     "title": "v2.0.0 リリース",
+
+     "/message/": "type = ↑ のtypeを流用し、項目ごとの着色を行う / heading = 見出し / content = 本文",
     "message": [
         {
+            "type": "update",
             "heading": "新機能",
             "content": "外部設定に対応しました。\nモーダルUIを改善しました。"
         },
         {
+            "type": "newProduct",
             "heading": "バグ修正",
             "content": "一部の環境で起動しない問題を修正しました。"
         },
         {
+            "type": "important",
             "heading": "お知らせ",
             "content": "次回アップデートでは新しいフィルター機能を追加予定です。"
-        }
+        },
+        {
+            "type": "",
+            "heading": "なんでもない",
+            "content": "そんな日もあるさ。"
+        },
     ],
     "linkText": "詳細を見る",
     "linkUrl": "https://example.com/changelog"
