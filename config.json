@@ -85,7 +85,8 @@
   },
 
   "releaseNotification": {
-    "id": "test-notification-001",
+    "//": "↓をキーに新規通知"
+    "id": "test-notification-000",
     "enabled": true,
     "type": "update",
     "title": "🎉 v2.0.0 リリース",
