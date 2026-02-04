@@ -85,12 +85,12 @@
   },
 
   "releaseNotification": {
-    "id": "initial-setup-2025-01-30",
-    "enabled": false,
+    "id": "test-notification-001",
+    "enabled": true,
     "type": "update",
-    "title": "お知らせタイトル",
-    "message": "お知らせ内容をここに記載",
+    "title": "🎉 v2.0.0 リリース",
+    "message": "新機能が追加されました。\n\n・外部設定対応\n・モーダルUI改善",
     "linkText": "詳細を見る",
-    "linkUrl": ""
-  }
+    "linkUrl": "https://example.com/changelog"
+   }
 }
