@@ -89,7 +89,7 @@
     "id": "test-notification-999",
     "enabled": true,
     "/type/": "🔄update / 🆕newProduct / ⚠️important / 📢alert / default から選択することでUI色などを調整",
-    "type": "update",
+    "type": "newProduct",
     "title": "v2.0.0 リリース",
 
      "/message/": "type = ↑ のtypeを流用し、項目ごとの着色を行う / heading = 見出し / content = 本文",
