@@ -1,6 +1,6 @@
 {
-  "configVersion": "2.0.9",
-  "lastUpdated": "2025-02-04",
+  "configVersion": "2.0.0",
+  "lastUpdated": "2025-02-05",
 
   "developer": {
     "profile": {
@@ -86,9 +86,9 @@
 
   "releaseNotification": {
     "/id/": "↓をキーに新規通知",
-    "id": "test-notification-000",
+    "id": "test-notification-001",
     "enabled": true,
-    "/type/": "update / newProduct / important から選択することでUI色などを調整",
+    "/type/": "🔄update / 🆕newProduct / ⚠️important / 📢alert / default から選択することでUI色などを調整",
     "type": "update",
     "title": "v2.0.0 リリース",
 
@@ -96,29 +96,14 @@
     "message": [
         {
             "type": "update",
-            "heading": "新機能",
-            "content": "外部設定に対応しました。\nモーダルUIを改善しました。"
+            "heading": "基本機能の動作改善（リファクタ）",
+            "content": "すぐに処理が重くなったり、コメントの表示が固まる不具合を修正しました。\n　　・全ての動作を超軽量にしました。\n　　・モーダルUIを改善しました。\n　　・サーバー切断時の再接続UIなどを実装しました。\n　　・特定の手順で文字色などがおかしくなるのを修正。\n　　・【有料版限定】BANリスト上でプラットフォームアイコンが表示されるように修正。"
         },
         {
             "type": "newProduct",
-            "heading": "バグ修正",
-            "content": "一部の環境で起動しない問題を修正しました。"
+            "heading": "パフォーマンス調整機能を新規実装",
+            "content": "お使いのPCに合わせたパフォーマンスを選択できるようになりました。\n　　・ブラウザキャッシュ機能実装。\n　　・メモリ負荷を調整できるパフォーマンス機能実装。\n　　・サーバー切断時の再接続UIなど復帰処理を実装。"
         },
-        {
-            "type": "important",
-            "heading": "お知らせ",
-            "content": "次回アップデートでは新しいフィルター機能を追加予定です。"
-        },
-        {
-            "type": "alert",
-            "heading": "警告",
-            "content": "めっちゃ危ない"
-        },
-        {
-            "type": "default",
-            "heading": "なんでもない",
-            "content": "そんな日もあるさ。"
-        }
     ],
     "linkText": "詳細を見る",
     "linkUrl": "https://example.com/changelog"
