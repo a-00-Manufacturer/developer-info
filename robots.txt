@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://a-00-manufacturer.github.io/developer-info/sitemap.xml
