@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A-00 | 配信者兼ツール開発者（個人開発）ポートフォリオサイト">
     <meta name="keywords" content="A-00, エーゼロ制作所, 個人開発, 配信ツール, わんコメ, プラグイン">
-    
+
     <!-- OGP (Open Graph Protocol) -->
     <meta property="og:title" content="A-00 | 配信者 兼 個人開発者">
     <meta property="og:description" content="ゲーム配信やツール開発をしています">
@@ -13,23 +13,26 @@
     <meta property="og:url" content="https://a-00-manufacturer.github.io/developer-info/">
     <meta property="og:site_name" content="A-00">
     <meta property="og:locale" content="ja_JP">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@_a_00__">
     <meta name="twitter:title" content="A-00 | 配信者 兼 個人開発者">
     <meta name="twitter:description" content="配信者向けツールを開発しています">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://a-00-manufacturer.github.io/developer-info/">
-    
+
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="9anpwul_sVD2vcAOvbxkvcQdClgUUQwqil5eArYxkUM" />
+
     <title>A-00 | 配信者 兼 個人開発者</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
+
     <style>
         :root {
             --color-bg: #0a0a0a;
@@ -62,21 +65,19 @@
             min-height: 100vh;
         }
 
-        /* Subtle grid background */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                linear-gradient(rgba(73, 11, 16, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(73, 11, 16, 0.03) 1px, transparent 1px);
-            background-size: 50px 50px;
-            pointer-events: none;
-            z-index: -1;
-        }
+            /* Subtle grid background */
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(rgba(73, 11, 16, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(73, 11, 16, 0.03) 1px, transparent 1px);
+                background-size: 50px 50px;
+                pointer-events: none;
+                z-index: -1;
+            }
 
         .container {
             max-width: 800px;
@@ -153,24 +154,24 @@
             position: relative;
         }
 
-        .section-title::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 3px;
-            height: 100%;
-            background: linear-gradient(180deg, var(--color-accent), var(--color-accent-light));
-            border-radius: 2px;
-        }
+            .section-title::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 3px;
+                height: 100%;
+                background: linear-gradient(180deg, var(--color-accent), var(--color-accent-light));
+                border-radius: 2px;
+            }
 
-        .section-title::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: var(--color-border);
-        }
+            .section-title::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: var(--color-border);
+            }
 
         /* Products */
         .product-card {
@@ -182,11 +183,11 @@
             transition: all 0.3s ease;
         }
 
-        .product-card:hover {
-            border-color: var(--color-accent);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 30px rgba(73, 11, 16, 0.15);
-        }
+            .product-card:hover {
+                border-color: var(--color-accent);
+                transform: translateY(-2px);
+                box-shadow: 0 8px 30px rgba(73, 11, 16, 0.15);
+            }
 
         .product-header {
             display: flex;
@@ -232,20 +233,20 @@
             transition: all 0.2s ease;
         }
 
-        .product-link:hover {
-            border-color: var(--color-accent);
-            background: rgba(73, 11, 16, 0.1);
-        }
+            .product-link:hover {
+                border-color: var(--color-accent);
+                background: rgba(73, 11, 16, 0.1);
+            }
 
         .product-link-primary {
             background: var(--color-accent);
             border-color: var(--color-accent);
         }
 
-        .product-link-primary:hover {
-            background: var(--color-accent-light);
-            border-color: var(--color-accent-light);
-        }
+            .product-link-primary:hover {
+                background: var(--color-accent-light);
+                border-color: var(--color-accent-light);
+            }
 
         /* Coming Soon */
         .coming-soon {
@@ -272,9 +273,9 @@
             margin-bottom: 24px;
         }
 
-        .links-category:last-child {
-            margin-bottom: 0;
-        }
+            .links-category:last-child {
+                margin-bottom: 0;
+            }
 
         .links-category-title {
             font-size: 0.75rem;
@@ -303,10 +304,10 @@
             transition: all 0.2s ease;
         }
 
-        .link-item:hover {
-            border-color: var(--color-accent);
-            background: var(--color-bg-hover);
-        }
+            .link-item:hover {
+                border-color: var(--color-accent);
+                background: var(--color-bg-hover);
+            }
 
         .link-icon {
             font-size: 1.3rem;
@@ -317,22 +318,48 @@
             justify-content: center;
         }
 
-        .link-icon svg {
-            width: 1.3rem;
-            height: 1.3rem;
-            flex-shrink: 0;
-        }
+            .link-icon svg {
+                width: 1.3rem;
+                height: 1.3rem;
+                flex-shrink: 0;
+            }
 
         /* Brand Colors */
-        .icon-booth { color: #FC4D50; }
-        .icon-fanbox { color: #FFB100; }
-        .icon-x { color: #FFFFFF; }
-        .icon-bluesky svg { fill: #0085FF; }
-        .icon-youtube svg .yt-bg { fill: #FF0000; }
-        .icon-youtube svg .yt-play { fill: #FFFFFF; }
-        .icon-twitch { color: #9146FF; }
-        .icon-niconico svg { fill: #FFFFFF; }
-        .icon-mail { color: #AAAAAA; }
+        .icon-booth {
+            color: #FC4D50;
+        }
+
+        .icon-fanbox {
+            color: #FFB100;
+        }
+
+        .icon-x {
+            color: #FFFFFF;
+        }
+
+        .icon-bluesky svg {
+            fill: #0085FF;
+        }
+
+        .icon-youtube svg .yt-bg {
+            fill: #FF0000;
+        }
+
+        .icon-youtube svg .yt-play {
+            fill: #FFFFFF;
+        }
+
+        .icon-twitch {
+            color: #9146FF;
+        }
+
+        .icon-niconico svg {
+            fill: #FFFFFF;
+        }
+
+        .icon-mail {
+            color: #AAAAAA;
+        }
 
         .link-label {
             font-size: 0.9rem;
@@ -359,9 +386,9 @@
             transition: all 0.2s ease;
         }
 
-        .contact-item:hover {
-            border-color: var(--color-accent);
-        }
+            .contact-item:hover {
+                border-color: var(--color-accent);
+            }
 
         .contact-icon {
             font-size: 1.5rem;
@@ -404,6 +431,7 @@
                 opacity: 0;
                 transform: translateY(20px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -415,10 +443,21 @@
             opacity: 0;
         }
 
-        .fade-in:nth-child(1) { animation-delay: 0.1s; }
-        .fade-in:nth-child(2) { animation-delay: 0.2s; }
-        .fade-in:nth-child(3) { animation-delay: 0.3s; }
-        .fade-in:nth-child(4) { animation-delay: 0.4s; }
+            .fade-in:nth-child(1) {
+                animation-delay: 0.1s;
+            }
+
+            .fade-in:nth-child(2) {
+                animation-delay: 0.2s;
+            }
+
+            .fade-in:nth-child(3) {
+                animation-delay: 0.3s;
+            }
+
+            .fade-in:nth-child(4) {
+                animation-delay: 0.4s;
+            }
 
         /* Responsive */
         @media (max-width: 600px) {
