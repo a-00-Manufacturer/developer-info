@@ -1,0 +1,90 @@
+{
+  "configVersion": "1.0.0",
+  "lastUpdated": "2026-02-27",
+
+  "developer": {
+    "profile": {
+      "name": "A-00",
+      "title": "個人開発者",
+      "description": "色んな事をしているおじさんです。"
+    },
+    "message": "🎉 PerformanceCheckerをご利用いただきありがとうございます 🎉\n\n■本ツールについて\nPCのプチフリ（マイクロフリーズ）発生時に、どのプロセスが原因だったかを特定するためのツールです。\nCPU / メモリ / ディスク / GPU の負荷をリアルタイムで監視し、スパイクや閾値超過を自動検知・記録します。\n\n■もしツールが役に立ちましたら\nぜひ各種SNSでのフォローや支援をお願いします。",
+    "links": [
+      {
+        "icon": "🖊",
+        "label": "開発者HP",
+        "description": "開発者の色々が乗ってるサイト",
+        "url": "https://a-00-manufacturer.github.io/developer-info/"
+      },
+      {
+        "icon": "🐫",
+        "label": "BOOTH",
+        "description": "開発したものを公開する場所",
+        "url": "https://a-00.booth.pm/"
+      },
+      {
+        "icon": "💰",
+        "label": "pixivFANBOX",
+        "description": "ご支援（寄付）いただける方はこちら　※月額制なのでご注意ください。",
+        "url": "https://a-00.fanbox.cc/"
+      },
+      {
+        "icon": "🐦",
+        "label": "Twitter (X)",
+        "description": "主に開発者の近況や雑学を発信しています",
+        "url": "https://x.com/_a_00__"
+      },
+      {
+        "icon": "🦋",
+        "label": "bluesky",
+        "description": "同上",
+        "url": "https://bsky.app/profile/a-00.bsky.social"
+      },
+      {
+        "icon": "📺",
+        "label": "YouTube",
+        "description": "主にゲーム、たまにツール開発などしてます",
+        "url": "https://youtube.com/channel/UCYDSE-5L3i52SyJgG9L3q1w?si=ZXV4mo7-c3AXDUyM"
+      },
+      {
+        "icon": "📺",
+        "label": "Twitch",
+        "description": "Youtubeと同時配信してます",
+        "url": "https://www.twitch.tv/a_00__"
+      },
+      {
+        "icon": "📺",
+        "label": "ニコニコ",
+        "description": "同上",
+        "url": "https://www.nicovideo.jp/user/125979540"
+      }
+    ]
+  },
+
+  "app": {
+    "name": "PerformanceChecker",
+    "version": "0.1.0",
+    "latestVersion": "0.1.0",
+    "downloadUrl": "",
+    "description": "PC負荷スパイク検知・プロセス監視ツール"
+  },
+
+  "releaseNotification": {
+    "id": "pc-001",
+    "enabled": true,
+    "type": "newFeature",
+    "title": "v0.1.0 初回リリース",
+    "message": [
+      {
+        "type": "newFeature",
+        "heading": "初回リリース",
+        "content": "CPU / メモリ / ディスク / GPU のリアルタイム監視とスパイク検知機能を搭載"
+      },
+      {
+        "type": "newFeature",
+        "heading": "プロセス別監視",
+        "content": "プロセス単位での負荷検知により、プチフリの原因プロセスを特定可能"
+      }
+    ]
+  }
+}
