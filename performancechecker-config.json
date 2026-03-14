@@ -1,6 +1,6 @@
 {
-  "configVersion": "0.1.0",
-  "lastUpdated": "2026-02-27",
+  "configVersion": "1.0.0",
+  "lastUpdated": "2026-03-15",
 
   "developer": {
     "profile": {
@@ -73,11 +73,11 @@
     "id": "pc-001",
     "enabled": true,
     "type": "newFeature",
-    "title": "v0.1.0 CBT版リリース",
+    "title": "v1.0.0 製品版リリース",
     "message": [
       {
         "type": "newFeature",
-        "heading": "CBT版リリース",
+        "heading": "製品版リリース",
         "content": "CPU / メモリ / ディスク / GPU のリアルタイム監視とスパイク検知機能を搭載"
       }
     ]
