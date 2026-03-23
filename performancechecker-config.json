@@ -1,6 +1,6 @@
 {
-  "configVersion": "1.0.0",
-  "lastUpdated": "2026-03-15",
+  "configVersion": "1.1.0",
+  "lastUpdated": "2026-03-24",
 
   "developer": {
     "profile": {
@@ -63,8 +63,8 @@
 
   "app": {
     "name": "PerformanceChecker",
-    "version": "0.1.0",
-    "latestVersion": "0.1.0",
+    "version": "1.1.0",
+    "latestVersion": "1.1.0",
     "downloadUrl": "",
     "description": "PC負荷スパイク検知・プロセス監視ツール"
   },
@@ -72,14 +72,19 @@
   "releaseNotification": {
     "id": "pc-001",
     "enabled": true,
-    "type": "newFeature",
-    "title": "v1.0.0 製品版リリース",
+    "type": "update",
+    "title": "v1.1.0 ",
     "message": [
       {
-        "type": "newFeature",
-        "heading": "製品版リリース",
-        "content": "CPU / メモリ / ディスク / GPU のリアルタイム監視とスパイク検知機能を搭載"
-      }
+        "type": "update",
+        "heading": "快適性・視認性アップデート",
+        "content": "v1.1.0 に更新を行い、設定タブ>その他 をご確認ください。 \n 　・アプリ内設定から管理者権限で起動できるようになりました。 \n 　・動作軽量化のため、アプリ起動時に古いログを自動削除するオプションを追加しました。"
+      },
+      {
+        "type": "newProduct",
+        "heading": "プロセスのフルパス記録・コピー機能を実装",
+        "content": "リアルタイム>プロセス一覧、ログ>検知履歴 の両方にプロセス名・プロセス名のコピーをできるようにしました。 \n 特殊なプロセスなどを筆頭に何らかの理由でフルパスが記録できなかった場合はフルパスのコピーできません。"
+      },
     ]
   }
 }
