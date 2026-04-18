@@ -62,7 +62,7 @@
   },
 
   "app": {
-    "name": "Anti-Ai-Learning for Media",
+    "name": "YomAI",
     "version": "1.0.0",
     "latestVersion": "1.0.0",
     "downloadUrl": "",
@@ -72,7 +72,7 @@
   "releaseNotification": {
     "id": "aal-001",
     "enabled": true,
-    "type": "update",
+    "type": "newProduct",
     "title": "v1.0.0 ",
     "message": [
       {
