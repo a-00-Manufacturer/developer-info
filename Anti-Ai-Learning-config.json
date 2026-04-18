@@ -1,1 +1,85 @@
+{
+  "configVersion": "1.0.0",
+  "lastUpdated": "2026-04-19",
 
+  "developer": {
+    "profile": {
+      "name": "A-00",
+      "title": "個人開発者",
+      "description": "色んな事をしているおじさんです。"
+    },
+    "message": "🎉 Anti-Ai-Learningをご利用いただきありがとうございます 🎉\n\n■本ツールについて\n画像・動画・音声を無断学習させない多数の防御プロテクトツールです。\nいくつものAI学習妨害機能を搭載していて、学習素材として利用できなくする防御を施します。\n\n■もしツールが役に立ちましたら\nぜひ各種SNSでのフォローや支援をお願いします。",
+    "links": [
+      {
+        "icon": "🖊",
+        "label": "開発者HP",
+        "description": "開発者の色々が乗ってるサイト",
+        "url": "https://a-00-manufacturer.github.io/developer-info/"
+      },
+      {
+        "icon": "🐫",
+        "label": "BOOTH",
+        "description": "開発したものを公開する場所",
+        "url": "https://a-00.booth.pm/"
+      },
+      {
+        "icon": "💰",
+        "label": "pixivFANBOX",
+        "description": "ご支援（寄付）いただける方はこちら　※月額制なのでご注意ください。",
+        "url": "https://a-00.fanbox.cc/"
+      },
+      {
+        "icon": "🐦",
+        "label": "Twitter (X)",
+        "description": "主に開発者の近況や雑学を発信しています",
+        "url": "https://x.com/_a_00__"
+      },
+      {
+        "icon": "🦋",
+        "label": "bluesky",
+        "description": "同上",
+        "url": "https://bsky.app/profile/a-00.bsky.social"
+      },
+      {
+        "icon": "📺",
+        "label": "YouTube",
+        "description": "主にゲーム、たまにツール開発などしてます",
+        "url": "https://youtube.com/channel/UCYDSE-5L3i52SyJgG9L3q1w?si=ZXV4mo7-c3AXDUyM"
+      },
+      {
+        "icon": "📺",
+        "label": "Twitch",
+        "description": "Youtubeと同時配信してます",
+        "url": "https://www.twitch.tv/a_00__"
+      },
+      {
+        "icon": "📺",
+        "label": "ニコニコ",
+        "description": "同上",
+        "url": "https://www.nicovideo.jp/user/125979540"
+      }
+    ]
+  },
+
+  "app": {
+    "name": "Anti-Ai-Learning for Media",
+    "version": "1.0.0",
+    "latestVersion": "1.0.0",
+    "downloadUrl": "",
+    "description": "無断AI学習からメディアを守るプロテクトツール"
+  },
+
+  "releaseNotification": {
+    "id": "aal-001",
+    "enabled": true,
+    "type": "update",
+    "title": "v1.0.0 ",
+    "message": [
+      {
+        "type": "newProduct",
+        "heading": "無断AI学習からメディアを守るプロテクトツール",
+        "content": "画像・動画・音声を無断学習させない多数の防御プロテクトをかけられるツール。"
+      }
+    ]
+  }
+}
