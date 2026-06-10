@@ -1,6 +1,6 @@
 {
-  "configVersion": "2.0.2",
-  "lastUpdated": "2026-02-20",
+  "configVersion": "2.0.3",
+  "lastUpdated": "2026-06-10",
 
   "developer": {
     "profile": {
@@ -96,14 +96,19 @@
     "enabled": true,
     "/type/": "🔄update / 🆕newProduct / ⚠️important / 📢alert / default から選択することでUI色などを調整",
     "type": "update",
-    "title": "v2.0.2 リリース",
+    "title": "v2.0.3 リリース",
 
      "/message/": "type = ↑ のtypeを流用し、項目ごとの着色を行う / heading = 見出し / content = 本文、　改行コード \n ",
     "message": [
         {
             "type": "update",
             "heading": "バグ修正",
-            "content": "特定のケースでコメントの自動スクロールが機能しない不具合を修正"
+            "content": "文字列に & が含まれている場合にエスケープ文字 amp; が含まれてしまう問題を修正"
+        },
+        {
+            "type": "important",
+            "heading": "🎉期間限定：期間限定大幅セール中🎉",
+            "content": "価格訂正を記念して有料版の期間限定セールを実施中！期間は未定ですが、大体9月いっぱいを想定しています。"
         }
     ],
     "/linkText": "先頭スラッシュで強引に実質的コメントアウトにしてます",
