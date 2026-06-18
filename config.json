@@ -1,6 +1,6 @@
 {
-  "configVersion": "2.0.3",
-  "lastUpdated": "2026-06-10",
+  "configVersion": "2.0.4",
+  "lastUpdated": "2026-06-18",
 
   "developer": {
     "profile": {
@@ -96,19 +96,19 @@
     "enabled": true,
     "/type/": "🔄update / 🆕newProduct / ⚠️important / 📢alert / default から選択することでUI色などを調整",
     "type": "update",
-    "title": "v2.0.3 リリース",
+    "title": "v2.0.4 リリース",
 
      "/message/": "type = ↑ のtypeを流用し、項目ごとの着色を行う / heading = 見出し / content = 本文、　改行コード \n ",
     "message": [
         {
-            "type": "update",
-            "heading": "バグ修正",
-            "content": "文字列に & が含まれている場合にエスケープ文字 amp; が含まれてしまう問題を修正"
+            "type": "alert",
+            "heading": "セキュリティ向上",
+            "content": "セキュリティリスクが見つかったので修正対応を行いました。 \n ご利用の方は最新版へのアップデートをお願いします。 \n ※XSS対策でHTMLの扱いをブラックリストからホワイトリストに変更"
         },
         {
-            "type": "important",
-            "heading": "🎉期間限定：期間限定大幅セール中🎉",
-            "content": "価格訂正を記念して有料版の期間限定セールを実施中！期間は未定ですが、大体9月いっぱいを想定しています。"
+            "type": "update",
+            "heading": "バグ修正",
+            "content": "意図しないタイミングで一部コメントが表示領域内にも関わらず非表示になる不具合を修正。 \n その他細かい使用感の向上を行いました。"
         }
     ],
     "/linkText": "先頭スラッシュで強引に実質的コメントアウトにしてます",
