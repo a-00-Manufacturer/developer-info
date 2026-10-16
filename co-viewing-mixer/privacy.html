@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー - Audio Presence</title>
+<style>
+  :root { --bg: #ffffff; --text: #1f1e1d; --sub: #5f5e5a; --line: #e2e0d9; --box: #f5f4f0; --link: #2563c9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #262624; --text: #f1efe8; --sub: #b4b2a9; --line: #3d3d3a; --box: #30302e; --link: #8ab4f8; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif; line-height: 1.8; line-break: strict; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  .meta { color: var(--sub); font-size: 0.9rem; margin: 0 0 24px; }
+  .lead { background: var(--box); border-radius: 8px; padding: 12px 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
+  th { white-space: nowrap; font-weight: 600; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: 0.9em; }
+  a { color: var(--link); }
+  .lang { font-size: 0.9rem; margin: 0 0 16px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0 0; }
+  footer { color: var(--sub); font-size: 0.85rem; text-align: center; margin-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+<p class="lang"><a href="#en">English version below</a></p>
+
+<h1>プライバシーポリシー</h1>
+<p class="meta">Audio Presence（Chrome 拡張機能）<br>制定日：2026年10月16日<br>最終更新日：2026年10月16日</p>
+
+<p class="lead">Audio Presence（以下「本拡張機能」）は、利用者の個人情報やその他のデータを収集しません。音声の処理と設定の保存は、すべて利用者のパソコンの中だけで行い、開発者や第三者のサーバーへ送ることはありません。</p>
+
+<h2>1. 収集する情報</h2>
+<p>本拡張機能は、利用者を特定できる情報、閲覧履歴、利用状況などを一切収集しません。アクセス解析、広告、外部サービスへの通信も行いません。</p>
+
+<h2>2. パソコンの中で扱う情報</h2>
+<p>本拡張機能は、機能を提供するために次の情報をパソコンの中だけで扱います。いずれも外部へ送信されません。</p>
+<table>
+  <tr><th>タブの音声</th><td>利用者が追加したタブの音声を、その場で立体的に加工して再生します。音声を録音・保存・送信することはありません。タブを解除すると、取り込みは止まります。</td></tr>
+  <tr><th>タブのタイトル</th><td>追加したタブを一覧で見分けるために、タブのタイトルを表示します。保存や送信はしません。</td></tr>
+  <tr><th>設定とマイセット</th><td>ルームタイプなどの全体設定、文字の大きさ、利用者が登録したマイセットを、ブラウザ内の保存領域（<code>chrome.storage.local</code>）に保存します。この保存領域はブラウザの同期の対象ではなく、利用者のパソコンの中にだけ残ります。</td></tr>
+  <tr><th>書き出したファイル</th><td>利用者が操作したときだけ、マイセットをファイルとしてパソコンに保存します。保存先は利用者が選んだ場所、またはダウンロードフォルダです。ファイルを読み込むときも、内容はパソコンの中だけで扱います。</td></tr>
+</table>
+
+<h2>3. 権限の使いみち</h2>
+<table>
+  <tr><th><code>tabCapture</code></th><td>利用者が追加したタブの音声を取り込むため</td></tr>
+  <tr><th><code>offscreen</code></th><td>取り込んだ音声を、ポップアップを閉じたあとも加工し続けるため</td></tr>
+  <tr><th><code>activeTab</code></th><td>利用者が操作したタブだけを追加の対象にするため</td></tr>
+  <tr><th><code>tabs</code></th><td>追加したタブのタイトルを表示し、タブが閉じられたときに取り込みを止めるため</td></tr>
+  <tr><th><code>contextMenus</code></th><td>右クリックメニューからタブを追加・解除できるようにするため</td></tr>
+  <tr><th><code>storage</code></th><td>設定とマイセットをパソコンの中に保存するため</td></tr>
+  <tr><th><code>downloads</code></th><td>利用者が操作したときに、マイセットをファイルとして保存するため</td></tr>
+</table>
+
+<h2>4. 第三者への提供</h2>
+<p>本拡張機能は情報を収集しないため、第三者へ提供・販売することはありません。</p>
+
+<h2>5. 外部へのリンク</h2>
+<p>ポップアップの「©A-00」を押すと、開発者のサイトが開きます。リンク先のサイトは本ポリシーの対象外です。</p>
+
+<h2>6. 情報の削除</h2>
+<p>本拡張機能を削除すると、ブラウザ内に保存された設定とマイセットも削除されます。書き出したファイルは利用者のパソコンに残るため、不要な場合は利用者自身で削除してください。</p>
+
+<h2>7. ポリシーの変更</h2>
+<p>本ポリシーは、必要に応じて変更することがあります。変更した場合は、このページの内容と最終更新日を更新します。</p>
+
+<h2>8. お問い合わせ</h2>
+<p>本ポリシーに関するお問い合わせは、<a href="https://a-00-manufacturer.github.io/developer-info/">開発者のサイト</a>に記載の連絡先までお願いします。</p>
+<p>開発者：A-00</p>
+
+<hr id="en">
+
+<h1>Privacy Policy</h1>
+<p class="meta">Audio Presence (Chrome extension)<br>Effective: October 16, 2026<br>Last updated: October 16, 2026</p>
+
+<p class="lead">Audio Presence ("the extension") does not collect any personal information or other user data. All audio processing and all saved settings stay on your computer. Nothing is sent to the developer or to any third party.</p>
+
+<h2>1. Information we collect</h2>
+<p>The extension does not collect personally identifiable information, browsing history, or usage data. It contains no analytics or advertising and makes no connections to external services.</p>
+
+<h2>2. Information handled on your computer</h2>
+<p>To provide its features, the extension handles the following information only on your computer. None of it is transmitted.</p>
+<table>
+  <tr><th>Tab audio</th><td>Audio from tabs you add is spatialized and played back in real time. Audio is never recorded, stored, or transmitted. Capture stops when you remove the tab.</td></tr>
+  <tr><th>Tab titles</th><td>Shown in the list so you can tell added tabs apart. Not stored or transmitted.</td></tr>
+  <tr><th>Settings and My Sets</th><td>Global settings, text size, and the My Sets you save are kept in the browser's local storage (<code>chrome.storage.local</code>). This storage is not synced and stays on your computer.</td></tr>
+  <tr><th>Exported files</th><td>Only when you choose to, My Sets are saved as files to a location you select or to your Downloads folder. Imported files are read only on your computer.</td></tr>
+</table>
+
+<h2>3. Permissions</h2>
+<table>
+  <tr><th><code>tabCapture</code></th><td>To capture audio from tabs you add</td></tr>
+  <tr><th><code>offscreen</code></th><td>To keep processing the captured audio after the popup is closed</td></tr>
+  <tr><th><code>activeTab</code></th><td>To limit capture to the tab you act on</td></tr>
+  <tr><th><code>tabs</code></th><td>To show the titles of added tabs and to stop capture when a tab is closed</td></tr>
+  <tr><th><code>contextMenus</code></th><td>To add or remove tabs from the right-click menu</td></tr>
+  <tr><th><code>storage</code></th><td>To save settings and My Sets on your computer</td></tr>
+  <tr><th><code>downloads</code></th><td>To save My Sets as files when you choose to export them</td></tr>
+</table>
+
+<h2>4. Sharing with third parties</h2>
+<p>Because the extension collects no data, no data is shared with or sold to third parties.</p>
+
+<h2>5. External links</h2>
+<p>Clicking "©A-00" in the popup opens the developer's website. That website is not covered by this policy.</p>
+
+<h2>6. Deleting your data</h2>
+<p>Uninstalling the extension removes the settings and My Sets stored in the browser. Exported files remain on your computer; delete them yourself if you no longer need them.</p>
+
+<h2>7. Changes to this policy</h2>
+<p>This policy may be updated when necessary. Any changes will be posted on this page with a new "Last updated" date.</p>
+
+<h2>8. Contact</h2>
+<p>For questions about this policy, please use the contact details on the <a href="https://a-00-manufacturer.github.io/developer-info/">developer's website</a>.</p>
+<p>Developer: A-00</p>
+
+<footer>©A-00</footer>
+</main>
+</body>
+</html>
