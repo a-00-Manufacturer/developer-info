@@ -1,6 +1,6 @@
 {
-  "configVersion": "2.0.5",
-  "lastUpdated": "2026-10-16",
+  "configVersion": "2.1.0",
+  "lastUpdated": "2026-10-29",
 
   "developer": {
     "profile": {
@@ -92,23 +92,18 @@
 
   "releaseNotification": {
     "/id/": "↓をキーに新規通知",
-    "id": "Notification-003",
+    "id": "Notification-004",
     "enabled": true,
     "/type/": "🔄update / 🆕newProduct / ⚠️important / 📢alert / default から選択することでUI色などを調整",
     "type": "update",
-    "title": "v2.0.5 リリース",
+    "title": "v2.1.0 リリース",
 
      "/message/": "type = ↑ のtypeを流用し、項目ごとの着色を行う / heading = 見出し / content = 本文、　改行コード \n ",
     "message": [
         {
-            "type": "important",
-            "heading": "わんコメテンプレートと競合するバグの修正",
-            "content": "わんコメテンプレートと併用した際にテンプレートが機能しない不具合を修正。 \n ポート番号を変更したためブラウザのURLが変更になりました。"
-        },
-        {
             "type": "update",
-            "heading": "バグ修正",
-            "content": "その他動作軽量化やユーザーアイコンがない場合の対応を行いました。"
+            "heading": "v2.1.0 更新",
+            "content": "対応プラットフォームに Mirrativ を追加しました。"
         }
     ],
     "/linkText": "先頭スラッシュで強引に実質的コメントアウトにしてます",
