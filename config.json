@@ -1,0 +1,112 @@
+{
+  "configVersion": "2.1.0",
+  "lastUpdated": "2026-10-29",
+
+  "developer": {
+    "profile": {
+      "name": "A-00",
+      "title": "個人開発者",
+      "description": "色んな事をしているおじさんです。"
+    },
+    "message": "🎉 ログ安価システムをご利用いただきありがとうございます 🎉 \n \n ■本プラグインについて \n 開発者が趣味で開発した安価機能とハードなコメントログ管理機能が実装されています。 \n 他の配信者の皆様にも安価に触れていただきたく、頒布・販売することにしました。 \n \n ■もしプラグインが役に立ちましたら \n ぜひ各種SNSでのフォローや支援をお願いします。 \n 　※1 配信で使用される際にご連絡いただければ観に行かせていただけるかもしれません。 \n 　※2 配信内や概要欄等で宣伝していただけるととてもありがたいです！",
+    "links": [
+      {
+          "icon": "🖊",
+          "label": "開発者HP",
+          "description": "開発者の色々が乗ってるサイト",
+          "url": "https://a-00-manufacturer.github.io/developer-info/"
+      }, 
+      {
+          "icon": "🐫",
+          "label": "BOOTH",
+          "description": "開発したものを公開する場所",
+          "url": "https://a-00.booth.pm/"
+      },
+      {
+          "icon": "💰",
+          "label": "pixivFANBOX",
+          "description": "ご支援（寄付）いただける方はこちら　※月額制なのでご注意ください。",
+          "url": "https://a-00.fanbox.cc/"
+      },
+      {
+          "icon": "🐦",
+          "label": "Twitter (X)",
+          "description": "主に開発者の近況や雑学を発信しています",
+          "url": "https://x.com/_a_00__"
+      },
+      {
+          "icon": "🦋",
+          "label": "bluesky",
+          "description": "同上",
+          "url": "https://bsky.app/profile/a-00.bsky.social"
+      },
+      {
+          "icon": "📺",
+          "label": "YouTube",
+          "description": "主にゲーム、たまにツール開発などしてます",
+          "url": "https://youtube.com/channel/UCYDSE-5L3i52SyJgG9L3q1w?si=ZXV4mo7-c3AXDUyM"
+      },
+      {
+          "icon": "📺",
+          "label": "Twitch",
+          "description": "Youtubeと同時配信してます",
+          "url": "https://www.twitch.tv/a_00__"
+      },
+      {
+          "icon": "📺",
+          "label": "ニコニコ",
+          "description": "同上",
+          "url": "https://www.nicovideo.jp/user/125979540"
+      }
+    ]
+  },
+  
+  "premium": {
+    "enabled": true,
+    "title": "Premium版のご案内",
+    "message": "全機能が解放されます",
+    "upgradeUrl": "https://a-00.booth.pm/items/7792479",
+    "features": [
+      {
+        "icon": "🚫",
+        "title": "BAN機能（完全解放）",
+        "items": ["ユーザーBAN 無制限", "コメントBAN 無制限"]
+      },
+      {
+        "icon": "🔍",
+        "title": "高度なフィルタリング",
+        "items": ["日付範囲フィルター", "URL別フィルター", "チャンネルポイントの個別管理"]
+      },
+      {
+        "icon": "💾",
+        "title": "設定保存機能",
+        "items": ["フィルター設定の保存/読込", "BAN設定の保存/読込"]
+      },
+      {
+        "icon": "🎁",
+        "title": "その他の特典",
+        "items": ["買い切りなので追加料金不要", "今後のアップデートを無償提供予定（boothで商品を都度差し替え更新していく予定）"]
+      }
+    ]
+  },
+
+  "releaseNotification": {
+    "/id/": "↓をキーに新規通知",
+    "id": "Notification-004",
+    "enabled": true,
+    "/type/": "🔄update / 🆕newProduct / ⚠️important / 📢alert / default から選択することでUI色などを調整",
+    "type": "update",
+    "title": "v2.1.0 リリース",
+
+     "/message/": "type = ↑ のtypeを流用し、項目ごとの着色を行う / heading = 見出し / content = 本文、　改行コード \n ",
+    "message": [
+        {
+            "type": "update",
+            "heading": "v2.1.0 更新",
+            "content": "対応プラットフォームに Mirrativ を追加しました。"
+        }
+    ],
+    "/linkText": "先頭スラッシュで強引に実質的コメントアウトにしてます",
+    "/linkUrl": "https://a-00.booth.pm/items/7792479"
+   }
+}
