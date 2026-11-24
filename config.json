@@ -92,7 +92,7 @@
 
   "releaseNotification": {
     "/id/": "↓をキーに新規通知",
-    "id": "Notification-005",
+    "id": "Notification-006",
     "enabled": true,
     "/type/": "🔄update / 🆕newProduct / ⚠️important / 📢alert / default から選択することでUI色などを調整",
     "type": "newProduct",
