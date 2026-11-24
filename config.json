@@ -95,15 +95,15 @@
     "id": "Notification-004",
     "enabled": true,
     "/type/": "🔄update / 🆕newProduct / ⚠️important / 📢alert / default から選択することでUI色などを調整",
-    "type": "update",
-    "title": "v2.1.0 リリース",
+    "type": "newProduct",
+    "title": "新規プロダクト公開（β版）",
 
      "/message/": "type = ↑ のtypeを流用し、項目ごとの着色を行う / heading = 見出し / content = 本文、　改行コード \n ",
     "message": [
         {
-            "type": "update",
-            "heading": "v2.1.0 更新",
-            "content": "対応プラットフォームに Mirrativ を追加しました。"
+            "type": "newProduct",
+            "heading": "【配信者向け】コラボ時に透過映像を共有できるアプリ",
+            "content": "アバターアプリの映像を透過した状態で共有できます。 /n 　・それぞれで配信映えする配置を作れる /n 　・みんなで同じ配置を使う共通レイアウト機能もあります /n  /n ※オープンβ版なので見極め期間後に利用者数が少なければサービスを終了する可能性があります"
         }
     ],
     "/linkText": "先頭スラッシュで強引に実質的コメントアウトにしてます",
